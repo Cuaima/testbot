@@ -1,0 +1,15 @@
+{
+  "name": "testbot",
+  "version": "1.0.0",
+  "description": "a first attempt at making a discord bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "cuaima",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^12.5.1",
+    "dotenv": "^8.2.0"
+  }
+}
