@@ -19,7 +19,7 @@ const replies = [
 client.on('message', gotMessage);
 
 function gotMessage(msg){
-    if (msg.channel.id == '701186033009557584' && msg.content === 'cool') {
+    if (msg.channel.id == process.env.CHANNEL_ID && msg.content === 'cool') {
         // msg.reply('cool cool cool'); //treplies to a user with a mention
         const index = Math.floor(Math.random() * replies.length);
         msg.channel.send(replies[index]);
