@@ -14,6 +14,7 @@ const replies = [
     'very cool 👍',
     'cool cool cool',
     'yeah!!!',
+    'yeah yeah, nerd',
 ]
 
 client.on('message', gotMessage);
